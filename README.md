@@ -6,7 +6,7 @@ Transferência de estilo é um processo no qual nos esforçamos para modificar o
 
 O processo é descrito no notebook presente neste repositório e também no artigo no Ensina.AI (Medium):
 
-LINK MEDIUM
+https://medium.com/ensina-ai/cnn-como-fazer-uma-transfer%C3%AAncia-de-estilo-facilmente-528ccbfefe31
 
 Também neste repositório há um script para se gerar uma imagem estilizada com facilidade. Para executá-lo basta executar:
 
