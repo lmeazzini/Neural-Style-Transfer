@@ -24,15 +24,12 @@ else:
     path_entrada = str(sys.argv[1])
     path_estilo = str(sys.argv[2])
 
-
 img_entrada = Image.open(path_entrada)
 img_entrada = img_entrada.resize((altura_imagem,largura_imagem))
-img_entrada.save('entrada.png')
 
 
 img_estilo = Image.open(path_estilo)
 img_estilo = img_estilo.resize((altura_imagem,largura_imagem))
-img_estilo.save('estilo.png')
 
 
 img_entrada_arr = np.asarray(img_entrada, dtype="float32") # shape = (largura_imagem, altura_imagem, canais)
